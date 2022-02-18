@@ -7,4 +7,4 @@ How to run the server ?
 
 - docker run -it -p 3000:3000 rs256-validation-server
 
-Open the URL http://localhost:3000?token=<RS256-JWT-Token> in browser
+Open the URL http://localhost:3000?token=RS256-JWT-Token in browser
