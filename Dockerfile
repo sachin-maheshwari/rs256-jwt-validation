@@ -3,7 +3,7 @@ FROM node:16.6.1
 WORKDIR /usr/app
 
 # Copy source files from host computer to the container
-COPY . .
+COPY . /usr/app
 
 # Install dependencies
 RUN npm install
