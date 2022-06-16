@@ -5,6 +5,8 @@ WORKDIR /usr/app
 # Copy source files from host computer to the container
 COPY . /usr/app
 
+RUN ls -la
+
 # Install dependencies
 RUN npm install
 
